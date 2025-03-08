@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root{
+    --white-color-1: #FFFFFF;
+    --white-color-2: #FEFEFE;
+    --gray-color-1: #9B959B;
+    --gray-color-2: #8F8D8E;
+    --black-color-1: #000000;
+    --black-color-2: #242527;
+    
+}
