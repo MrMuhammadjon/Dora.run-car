@@ -12,5 +12,17 @@
     --gray-color-2: #8F8D8E;
     --black-color-1: #000000;
     --black-color-2: #242527;
-    
+}
+
+
+.home-blog{
+    width: 100%;
+    height: 600px;
+    background-color: var(--black-color-2);
+}
+
+header{
+    width: 90%;
+    max-width: 1400px;
+    background-color: red;
 }
