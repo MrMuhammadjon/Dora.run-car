@@ -28,6 +28,7 @@
     height: auto;
     padding: 0 0 70px 0;
     background-color: var(--black-color-2);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 header {
@@ -143,32 +144,91 @@ header {
     padding: 20px 0px;
     margin: auto;
     display: flex;
+    flex-direction: column;
     margin-top: 100px;
 }
 
-.about-l {
-    flex: 1;
+
+.about-m3-head {
+
+    width: 100%;
+    height: 200px;
     display: flex;
-    justify-content: center;
-    gap: 40px;
+    align-items: center;
+    justify-content: space-between;
     color: var(--white-color-1);
-    flex-direction: column;
-    font-family: var(--google-fonts-3);
 }
 
-.about-l h1 {
-    font-size: 70px;
-}
-
-.about-l  p{
-    font-size: 20px;
-    line-height: 40px;
-}
-
-
-
-
-
-.about-r {
+.about-m3-container1,
+.about-m3-container2,
+.about-m3-container3 {
+    display: flex;
+    align-items: center;
     flex: 1;
+    flex-direction: column;
+
+}
+
+
+.about-m3-container1 span,
+.about-m3-container2 span,
+.about-m3-container3 span {
+    font-size: 40px;
+}
+
+.about-m3-container1 span h1,
+.about-m3-container2 span h1,
+.about-m3-container3 span h1 {
+    font-size: 40px;
+    font-family: var(--google-fonts-3);
+    font-weight: 400;
+    height: 40px;
+    width: auto;
+    display: flex;
+}
+
+.counter-container {
+    font-size: 3rem;
+    width: auto;
+    font-weight: bold;
+    color: #3498db;
+    display: inline-block;
+    overflow: hidden;
+    height: auto;
+    line-height: 3rem;
+    position: relative;
+}
+
+.counter {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: countUp 5s linear forwards;
+}
+
+@keyframes countUp {
+    from {
+        transform: translateY(100%);
+    }
+    to {
+        transform: translateY(-900%);
+    }
+}
+
+
+.about-m3-man {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 300px;
+    position: relative;
+}
+
+.about-m3-man img {
+    margin-top: 400px;
 }
