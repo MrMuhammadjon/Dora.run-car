@@ -261,11 +261,15 @@ main {
 }
 
 @keyframes scroll {
-    0%{
+    0% {
         transform: translateX(0);
-    }50%{
+    }
+
+    50% {
         transform: translateX(calc(-400px * 3));
-    }100%{
+    }
+
+    100% {
         transform: translateX(0);
     }
 }
@@ -289,3 +293,5 @@ main {
     transform: scale(1.2);
     cursor: pointer;
 }
+
+.3d-model

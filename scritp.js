@@ -11,7 +11,7 @@ const counterNuber1 = setInterval(() => {
     if (jscounter1 >= 450) {
         clearInterval(counterNuber1)
     }
-}, 0.5)
+}, 0.1)
 
 
 const counterNuber2 = setInterval(() => {
@@ -20,4 +20,4 @@ const counterNuber2 = setInterval(() => {
     if (jscpunter2 >= 100) {
         clearInterval(counterNuber2)
     }
-}, 18)
+}, 20)
